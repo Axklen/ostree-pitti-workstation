@@ -100,8 +100,9 @@ packages:
   - gstreamer1-libav
   # for wf-recorder
   - libavdevice
+  # for simple-term
+  - vte291
   - xdg-desktop-portal-gtk
-
   - pavucontrol
   - pcmanfm
   - simple-scan
@@ -112,7 +113,6 @@ packages:
   - gnome-keyring
   - pinentry-gnome3
   - lxpolkit
-  - lxterminal
   - gnome-disk-utility
   - gtimelog
   - rofimoji
@@ -133,8 +133,6 @@ packages:
   - wl-clipboard
 
 exclude-packages:
-  # recommended by sway
-  - alacritty
   - brltty
   - glibc-all-langpacks
   - xdg-desktop-portal-wlr
